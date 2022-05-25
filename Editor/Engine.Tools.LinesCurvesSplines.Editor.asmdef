@@ -1,0 +1,18 @@
+{
+    "name": "Engine.Tools.LinesCurvesSplines.Editor",
+    "rootNamespace": "Engine.Tools.LinesCurvesSplines.Editor",
+    "references": [
+        "Engine.Tools.LinesCurvesSplines"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

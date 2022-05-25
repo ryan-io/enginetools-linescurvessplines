@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e8b76fd37068a2468d675145ee17009, type: 3}
+  m_Name: Simple Spline Path 1
+  m_EditorClassIdentifier: 
+  _splineType: 4
+  _points:
+  - {x: 42.103615, y: -28.775469}
+  - {x: 43.048706, y: -26.504198}
+  - {x: 44.038204, y: -24.599718}
+  - {x: 45.07222, y: -23.011972}
+  - {x: 46.15082, y: -21.690887}
+  - {x: 47.27414, y: -20.58641}
+  - {x: 48.442253, y: -19.648481}
+  - {x: 49.655262, y: -18.827038}
+  - {x: 50.913284, y: -18.072018}
+  - {x: 52.2164, y: -17.333359}
+  - {x: 53.564713, y: -16.561005}
+  - {x: 54.958332, y: -15.704893}
+  - {x: 56.397346, y: -14.714962}
+  - {x: 57.88185, y: -13.541151}
+  - {x: 59.411957, y: -12.133398}
+  - {x: 60.987755, y: -10.441644}
+  - {x: 62.60935, y: -8.415827}
+  - {x: 64.27683, y: -6.005886}
+  - {x: 65.99031, y: -3.161761}
+  - {x: 69.55563, y: 4.0292716}

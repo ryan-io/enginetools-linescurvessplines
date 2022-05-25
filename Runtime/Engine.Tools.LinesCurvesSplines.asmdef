@@ -1,0 +1,17 @@
+{
+    "name": "Engine.Tools.LinesCurvesSplines",
+    "rootNamespace": "Engine.Tools.LinesCurvesSplines",
+    "references": [
+        "GUID:426efa474ab3fcb4fbd5d6dbacbc2e25",
+        "GUID:2d39bd8f148216f40b56152f5062a91b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
