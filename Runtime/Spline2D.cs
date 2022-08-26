@@ -254,7 +254,7 @@ namespace Engine.Tools.LinesCurvesSplines {
 		[GUIColor(254 / 255f, 214 / 255f, 82 / 255f)]
 		[Button("Reset Control Points", ButtonSizes.Medium, ButtonStyle.CompactBox)]
 		protected override void Reset() {
-			_points      = DefaultPoints;
+			_points      = new [] { Vector2.zero, 2 * Vector2.one, 3 * Vector2.one, 4 * Vector2.one };
 			_connections = Utility.Defaults.DefaultConnections;
 
 			_currentPointCount      = 4;

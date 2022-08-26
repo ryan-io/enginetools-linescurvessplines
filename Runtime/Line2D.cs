@@ -64,10 +64,7 @@ namespace Engine.Tools.LinesCurvesSplines {
 		[GUIColor(254 / 255f, 214 / 255f, 82 / 255f)]
 		[Button("Reset", ButtonSizes.Medium, ButtonStyle.CompactBox)]
 		protected override void Reset() {
-			_points = new[] {
-				Vector2.zero,
-				100 * Vector2.one
-			};
+			_points = new [] { Vector2.zero, 2 * Vector2.one };
 
 			//Utility.Operations.Record(this, "Reset Line 2D");  -> record to undo stack
 		}

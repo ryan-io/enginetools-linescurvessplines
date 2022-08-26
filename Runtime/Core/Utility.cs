@@ -69,12 +69,12 @@ namespace Engine.Tools.LinesCurvesSplines {
 				Spline.Connection.Free, Spline.Connection.Free
 			};
 
-			static readonly Vector2[] LinePoints = { Vector2.zero, 50 * Vector2.one };
+			static readonly Vector2[] LinePoints = { Vector2.zero, 2 * Vector2.one };
 
-			static readonly Vector2[] CurvePointsQuadratic = { Vector2.zero, Vector2.one, 50 * Vector2.one };
+			static readonly Vector2[] CurvePointsQuadratic = { Vector2.zero, Vector2.one, 2 * Vector2.one };
 
 			static readonly Vector2[] SplinePoints =
-				{ Vector2.zero, 25 * Vector2.one, 50 * Vector2.one, 100 * Vector2.one };
+				{ Vector2.zero, 2 * Vector2.one, 3 * Vector2.one, 4 * Vector2.one };
 		}
 
 		public static class Log {

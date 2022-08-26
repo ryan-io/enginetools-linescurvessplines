@@ -126,8 +126,8 @@ namespace Engine.Tools.LinesCurvesSplines {
 		[PropertyOrder(10)]
 		[PropertySpace(10, 10)]
 		[Indent]
-		[TableList(AlwaysExpanded = true, HideToolbar = true, ShowIndexLabels = true, NumberOfItemsPerPage = 15,
-			CellPadding = 5)]
+		[ListDrawerSettings(Expanded = true, DraggableItems = true, ShowIndexLabels = true, NumberOfItemsPerPage = 10,
+			HideAddButton = true, HideRemoveButton = true)]
 		[SerializeField]
 		Vector2[] _processedPoints;
 

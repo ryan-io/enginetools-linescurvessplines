@@ -40,6 +40,13 @@ namespace Engine.Tools.LinesCurvesSplines {
 
 		public IReadOnlyList<Vector2> PointsReadonly => _points;
 
+		public IReadOnlyList<Vector2> PointsExtractedReadonly {
+			get {
+				ExtractPoints();
+				return _extractedPoints;
+			}
+		}
+
 		public bool ShouldDrawRootHandles => _drawRootHandles == Toggle.Yes;
 
 		public bool ShouldDrawLabels => _drawLabels == Toggle.Yes;
@@ -52,7 +59,7 @@ namespace Engine.Tools.LinesCurvesSplines {
 
 		protected bool _drawPoints;
 
-		#region Plumbing
+#region Plumbing
 
 		[TitleGroup("Settings", "Various settings to control various spline gizmos", Indent = true)]
 		[LabelText("Reset Root Position")]
@@ -265,6 +272,6 @@ namespace Engine.Tools.LinesCurvesSplines {
 			Gizmos.DrawSphere(_extractedPoints[i], _pointRadius);
 		}
 
-		#endregion
+#endregion
 	}
 }

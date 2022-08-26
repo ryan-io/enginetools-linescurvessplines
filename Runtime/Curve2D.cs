@@ -33,8 +33,8 @@ namespace Engine.Tools.LinesCurvesSplines {
 
 		void OnPowerChange() {
 			_points = _polynomial == Power.Cubic
-				          ? Utility.Defaults.GetDefaultPoints(SplineType.CubicCurve)
-				          : Utility.Defaults.GetDefaultPoints(SplineType.QuadraticCurve);
+				          ? new []{ Vector2.zero, 2 * Vector2.one, 3 * Vector2.one, 4 * Vector2.one }
+				          : new []{ Vector2.zero, Vector2.one, 2 * Vector2.one };
 		}
 
 		void OnValidate() {

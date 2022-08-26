@@ -1,19 +1,11 @@
 {
-  "name": "com.omniengine.tools.linescurvessplines",
+  "name": "com.engine.tools.linescurvessplines",
   "displayName": "Engine Tools - Lines, Curves, & Splines",
   "description": "Editor tools for creating lines, curves, and splines. Used for creating patrolling paths, line renderers, and anything that would require splines. Data can be exported and serialized.",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "unity": "2021.3",
   "unityRelease": "1f1",
-  "author": {
-    "name": "Ryan IO",
-    "email": "ryan@ryandeveloper.io",
-    "url": "ryandeveloper.io"
-  },
-  "repository": {
-    "url": "https://github.com/ryanunitydeveloper/enginetools-linescurvessplines.git",
-    "type": "git"
-  },
   "dependencies": {
+    
   }
 }
